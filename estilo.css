@@ -104,7 +104,7 @@ h1{
    }
 
    .perfil-sobre{
-      max-width: 635px;
+      width: 635px;
    }
 
    #footer{
@@ -128,12 +128,9 @@ h1{
    }
 
  /*---MAIN--- */
- .skillset,
- .awards,
- .career-Traits,
- .recent-Works{
+ .info, .info-skills{
    margin-bottom: 100px;
-   width: 350px;
+   max-width: 350px;
 }
 
 #main{
@@ -141,6 +138,9 @@ h1{
    display: flex;
    
    }
+.titleinfo{
+   width: 635px;
+}
 
   .social {
    display: flex;  
@@ -162,50 +162,103 @@ h1{
   justify-content: center;
   margin-top: 66px;
   display: flex;
-  width: 635px;
-  padding-left: 68px;
-  border-top-left-radius: 640px;
+  max-width: 635px;
+  
+  
 }
+#esperience{
+   
+}
+.titleinfo{
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
 
-.Experience{
 
 }
+.titleinfo h3{
+   width: 460px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+   letter-spacing: 1px;
+}
+.titleinfo p{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 34px;
+   width: 635px;
+}
+ 
 
    /*---HEADER--- */
    
    /*---TABLET & MOBILE--- */
-   @media screen and (max-width:768px){
+   @media screen and (max-width:375px){
       h1{
-         font-size: 56px;
-         line-height: 46px;
+         font-size: 26px;
+         line-height: 23px;
+         text-align: center;
+         letter-spacing: -2.17px;
+      }
+      h3{
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 20px;
+         letter-spacing: 2px;
+         text-align: center;
       }
       h4{
-         font-size: 40px;
-         line-height: 50px;
+         font-size: 20px;
+         line-height: 25px;
       }
       #header{
          padding: 80px 0 130px 0;
+         
       }
       #header .container{
          flex-direction: column;
          align-items: center;
+         max-width: 1024px;
       }
       .perfil{
          width: 160px;
          margin-bottom: 40px;
       }
+    
       .perfil-sobre{
          display: flex;
          flex-direction: column;
          align-items: center;
          text-align: center;
       }
-      #main{
-         padding: 80px 0 130px 0;
-      }
+      
+      
       #main .container{
          flex-direction: column;
          align-items: center;
       }
+     
+       .About-Me{
+          max-width: 375px;
+
+       } 
+      
+      #footer .container{
+         max-width: 1024px;
+      }
+      #footer .container a{
+         font-size: 20px;
+         line-height: 36px;
+
+      }
+      .info, .About-Me{
+         width: 100%;
+
+        
+      }
    }
+     
+
+   
    
