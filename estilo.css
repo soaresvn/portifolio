@@ -16,7 +16,7 @@ h1{
    font-size: 18px;
    font-weight: 700;
    line-height: 24px; 
-   color: #9E8C6C;
+   color: #0663A6;
    letter-spacing: 2px; 
    margin: 0 0 10px 0;
    }
@@ -48,10 +48,11 @@ h1{
       margin: 10px 0;
       font-size: 18px;
       font-weight: 900;
-      background-color: #0699A6;
-      color: #fff;
+      background-color: #0663A6;
+      color: #050505b7;
       text-decoration: none;
       text-transform: uppercase;  
+      border-radius: 15px;
    }
     .container{
       display: flex;
@@ -70,7 +71,7 @@ h1{
     }
     ul li a{
       text-decoration: none;
-      color: #0699A6;
+      color: #0663A6;
       font-weight: 600;
     }
    
@@ -80,11 +81,12 @@ h1{
    #header{
       width: 100%;
       padding: 180px 0 209px 0;
-      background-color: #9e8c6c11;
+      background-color: #8DADC5;
    }
    
    .perfil{
       width: 350px;
+      
    }
    
    .perfil img{
@@ -108,7 +110,7 @@ h1{
    .barraazul{
       width:71px;
       height:10px;
-      background-color:#0699A6;
+      background-color:#0663A6;
       margin: 40px 0 40px 20px;
    }
    .sobre{
@@ -137,7 +139,7 @@ h1{
        align-items: center;
      }
      #footer .container a{
-      color: #0699A6;
+      color: #0663A6;
       line-height: 46px;
       font-size: 36px;
       font-weight: 900;
