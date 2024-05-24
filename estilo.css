@@ -16,9 +16,10 @@ h1{
    font-size: 18px;
    font-weight: 700;
    line-height: 24px; 
-   color: #0663A6;
+   color:   #333333;
    letter-spacing: 2px; 
    margin: 0 0 10px 0;
+   text-transform: uppercase;
    }
    h4{
    line-height: 82px;
@@ -48,8 +49,8 @@ h1{
       margin: 10px 0;
       font-size: 18px;
       font-weight: 900;
-      background-color: #0663A6;
-      color: #050505b7;
+      background-color:  #333333;
+      color: #ffffff;
       text-decoration: none;
       text-transform: uppercase;  
       border-radius: 15px;
@@ -71,7 +72,7 @@ h1{
     }
     ul li a{
       text-decoration: none;
-      color: #0663A6;
+      color:   #333333;
       font-weight: 600;
     }
    
@@ -79,10 +80,12 @@ h1{
    
    /*---Header--- */
    #header{
+      
+      border-radius: 0 0 10px 10px;
       width: 100%;
-      padding: 180px 0 209px 0;
-      background-color: #8DADC5;
-   }
+      padding: 100px 0 100px 0;
+      background-color: #DDDDDD ;
+}
    
    .perfil{
       width: 350px;
@@ -110,7 +113,7 @@ h1{
    .barraazul{
       width:71px;
       height:10px;
-      background-color:#0663A6;
+      background-color:  #333333;
       margin: 40px 0 40px 20px;
    }
    .sobre{
@@ -129,9 +132,9 @@ h1{
    
    /*---Footer---*/
    #footer{
-      background-color:#8DADC5 ;
       width: 100%;
-      height: 547px;
+      height: 450px;
+      background-color: #DDDDDD ;
      }
     
      #footer .container{
@@ -139,7 +142,7 @@ h1{
        align-items: center;
      }
      #footer .container a{
-      color: #0663A6;
+      color: #000000;
       line-height: 46px;
       font-size: 36px;
       font-weight: 900;
@@ -150,6 +153,12 @@ h1{
       display: flex;
       width: 243px;
       justify-content: space-between;
+     }
+     .box2{
+      background-color: #DDDDDD;
+      border-radius: 10px;
+      padding: 10px;
+      
      }
    /*---Footer---*/
    
